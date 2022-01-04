@@ -15,7 +15,7 @@ ANY DAMAGES CAUSED DUE TO ILLEGAL USE OF THIS APP/SOFTWARE/POC IS NOT THE RESPON
 ```
 ![Log4JShell POC](https://user-images.githubusercontent.com/1702155/148016568-357dada4-736f-4e54-a585-5ba70e0d86ba.jpg)
 
-˚≠
+
 ## Pre-requisites
 * [Python 3](https://www.python.org/downloads/)
 * [Java 1.8](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html)
